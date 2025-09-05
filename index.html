@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание - Анализ приложений</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.3.0/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1><i class="fas fa-mobile-alt"></i> Тестовое задание: анализ приложений</h1>
+            <p class="subtitle">POCO F4 с HyperOS 1.0 (Android 14)</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="card">
+            <h2 class="card-title"><i class="fas fa-info-circle"></i> Информация об устройстве</h2>
+            
+            <div class="device-info">
+                <div class="info-item">
+                    <i class="fas fa-mobile"></i>
+                    <h3>Устройство</h3>
+                    <p>POCO F4</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Операционная система</h3>
+                    <p>HyperOS 1.0 (Android 14)</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>Версия ОС</h3>
+                    <p>OS1.0.8.0.ULMEUXM</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><i class="fas fa-mobile-alt"></i> Выбранные приложения и их польза</h2>
+            
+            <div class="apps-grid">
+                <div class="app-card">
+                    <div class="app-header-telegram">
+                        <h3><i class="fab fa-telegram"></i> Telegram</h3>
+                    </div>
+                    <div class="app-body">
+                        <p><span class="highlight">Польза:</span></p>
+                        <ul class="feature-list">
+                            <li>Быстрая отправка сообщений и файлов без ограничений по размеру</li>
+                            <li>Каналы и боты для получения новостей и автоматизации задач</li>
+                            <li>Синхронизация между устройствами с сохранением истории переписок</li>
+                        </ul>
+                        <p><span class="highlight">Частота использования:</span> Ежедневно</p>
+                    </div>
+                </div>
+                
+                <div class="app-card">
+                    <div class="app-header-reading">
+                        <h3><i class="fas fa-book"></i> Яндекс Книги</h3>
+                    </div>
+                    <div class="app-body">
+                        <p><span class="highlight">Польза:</span></p>
+                        <ul class="feature-list">
+                            <li>Доступ к обширной библиотеке книг, включая аудиокниги и комиксы</li>
+                            <li>Возможность загружать собственные файлы в форматах FB2 или EPUB</li>
+                            <li>Синхронизация чтения между аудио- и текстовой версией книги</li>
+                        </ul>
+                        <p><span class="highlight">Частота использования:</span> Несколько раз в неделю</p>
+                    </div>
+                </div>
+                
+                <div class="app-card">
+                    <div class="app-header-utility">
+                        <h3><i class="fas fa-bolt"></i> Мой Мосэнергосбыт</h3>
+                    </div>
+                    <div class="app-body">
+                        <p><span class="highlight">Польза:</span></p>
+                        <ul class="feature-list">
+                            <li>Управление несколькими лицевыми счетами в одном приложении</li>
+                            <li>Удобная передача показаний счетчиков и оплата без комиссии</li>
+                            <li>Push-уведомления о сроках передачи показаний и необходимости оплаты</li>
+                        </ul>
+                        <p><span class="highlight">Частота использования:</span> 1-2 раза в месяц</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><i class="fas fa-exclamation-circle"></i> Неудобства приложений</h2>
+            
+            <h3><i class="fab fa-telegram"></i> Telegram</h3>
+            <div class="problem-list">
+                <div class="problem-item">
+                    <p><span class="highlight">1. Слабый контроль уведомлений для каналов</span></p>
+                    <p>Невозможно настроить уведомления только для постов с ключевыми словами. Это приводит к потоку оповещений, даже если канал содержит смешанный контент.</p>
+                </div>
+                <div class="problem-item">
+                    <p><span class="highlight">2. Ограниченная функциональность групповых видеозвонков</span></p>
+                    <p>В сравнении с конкурентами, функционал групповых звонков менее развит, особенно для больших групп и вебинаров.</p>
+                </div>
+                <div class="problem-item">
+                    <p><span class="highlight">3. Нет встроенного планировщика сообщений</span></p>
+                    <p>Нельзя запланировать отправку сообщений на определенное время, что неудобно для работы в разных часовых поясах.</p>
+                </div>
+            </div>
+            
+            <h3><i class="fas fa-book"></i> Яндекс Книги</h3>
+            <div class="problem-list">
+                <div class="problem-item">
+                    <p><span class="highlight">1. Сложность первоначальной настройки</span></p>
+                    <p>Огромное количество опций может запутать новичка. Требует значительных временных затрат на изучение всех функций, чтобы настроить приложение под себя.</p>
+                </div>
+                <div class="problem-item">
+                    <p><span class="highlight">2. Качество синтеза речи (TTS)</span></p>
+                    <p>Функция чтения вслух может работать с ошибками в интонациях и ударениях. Прослушивание книг становится неприятным и может искажать смысл текста.</p>
+                </div>
+                <div class="problem-item">
+                    <p><span class="highlight">3. Ограниченные возможности организации библиотеки</span></p>
+                    <p>Недостаточно гибкие возможности для сортировки и организации личной коллекции книг, особенно при большом количестве произведений.</p>
+                </div>
+            </div>
+            
+            <h3><i class="fas fa-bolt"></i> Мой Мосэнергосбыт</h3>
+            <div class="problem-list">
+                <div class="problem-item">
+                    <p><span class="highlight">1. Сложность восстановления доступа</span></p>
+                    <p>Время восстановления пароля превышает 10 минут в 30% случаев, что создает неудобства при срочной необходимости передать показания.</p>
+                </div>
+                <div class="problem-item">
+                    <p><span class="highlight">2. Отсутствие истории показаний</span></p>
+                    <p>Невозможно просмотреть динамику потребления за период более 3 месяцев, что затрудняет анализ и планирование расходов.</p>
+                </div>
+                <div class="problem-item">
+                    <p><span class="highlight">3. Нестабильность работы приложения</span></p>
+                    <p>В 20% случаев приложение закрывается с ошибкой при попытке оплаты, что требует повторного входа и заполнения данных.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><i class="fas fa-lightbulb"></i> Решение выбранной проблемы</h2>
+            
+            <div class="solution-block">
+                <p><span class="highlight">Проблема:</span> Слабый контроль уведомлений для каналов в Telegram.</p>
+            </div>
+            
+            <h3>Возможные варианты решения:</h3>
+            <ol class="feature-list">
+                <li>Добавление системы ключевых слов для фильтрации уведомлений</li>
+                <li>Режим «Только важные уведомления» с настраиваемыми критериями</li>
+                <li>Умная система анализа контента и приоритизации уведомлений</li>
+            </ol>
+            
+            <h3>Детальное описание решения №1: Система ключевых слов</h3>
+            <p>Пользователь сможет настроить фильтрацию уведомлений через раздел «Настройки » Уведомления и звуки » Уведомления из чатов » Фильтры».</p>
+            
+            <div class="solution-block">
+                <h4>Таблица правил фильтрации:</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ключевые слова</th>
+                            <th>Действие</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>важно, срочно, новость</td>
+                            <td>Показывать уведомления</td>
+                        </tr>
+                        <tr>
+                            <td>акция, распродажа</td>
+                            <td>Скрывать уведомления</td>
+                        </tr>
+                        <tr>
+                            <td>упоминание, ответ</td>
+                            <td>Показывать с звуком</td>
+                        </tr>
+                        <tr>
+                            <td>убийство</td>
+                            <td>Скрывать без звука</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h4>Схема процесса настройки:</h4>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart TD
+    A[Открыть Настройки] --> B[Уведомления и звуки]
+    B --> C[Уведомления из чатов]
+    C --> D[Фильтры]
+    D --> E[Создать новый фильтр]
+    E --> G[Активировать ключевые слова]    
+    G --> H[Ввести ключевые слова]
+    H --> I{Выбрать действие}
+    I --> J[Показывать]
+    I --> K[Скрывать]
+    I --> L[Со звуком]
+    I --> M[Без звука]
+    J --> N[Сохранить фильтр]
+    K --> N
+    L --> N
+    M --> N
+    N --> O[Фильтр активен]
+                </div>
+            </div>
+
+            <h4>Схема работы фильтрации:</h4>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart TD
+    A[Новое сообщение] --> B[Проверить фильтры]
+    B --> E{Содержит ключ. слова?}
+    E -- Да --> F[Применить действие]
+    E -- Нет --> G[Пропустить]
+    F --> M[Действие: показать/скрыть]
+    G --> N[Стандартная обработка]
+                </div>
+            </div>
+
+            <h4>Интерактивный прототип интерфейса настройки фильтров</h4>
+
+            <div class="solution-block">
+                <p>Ниже представлен интерактивный прототип экрана создания нового правила фильтрации уведомлений на основе ключевых слов. Вы можете взаимодействовать с элементами интерфейса: нажимать на кнопки.</p>
+
+                <div>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/gywuNbCj27EbxBMQO5sFED/Untitled?node-id=5-21&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A21&embed-host=share" allowfullscreen></iframe>
+                </div>
+                
+                <p style="text-align: center; margin-top: 10px; font-size: 0.9rem; color: var(--text-light);">
+                    <i class="fab fa-figma"></i> Интерактивный прототип создан в Figma
+                </p>
+                
+                <p><strong>Инструкция по взаимодействию с прототипом:</strong></p>
+                <ol>
+                    <li>Нажмите на кнопку <strong>«Фильтр»</strong> в блоке "Уведомления из чатов".</li>
+                    <li>Нажмите на кнопку <strong>«Ключевые слова»</strong>, чтобы написать их.</li>
+                    <li>Введите ключевые слова. (Нажмите на область, где их вводить - они введутся автоматически)</li>
+                    <li>Используйте переключатели, чтобы выбрать действие для уведомлений.</li>
+                </ol>
+            </div>            
+            
+            <h4>Эффективность после внедрения решения:</h4>
+            <div class="memory-chart">
+                <div>
+                    <div class="chart-bar" data-value="95%" style="height: 95px; background: #f72585;"></div>
+                    <div class="chart-label">До внедрения</div>
+                </div>
+                <div>
+                    <div class="chart-bar" data-value="35%" style="height: 35px; background: #4cc9f0;"></div>
+                    <div class="chart-label">После внедрения</div>
+                </div>
+            </div>
+            
+            <div class="chart-legend">
+                <p><span class="legend-red"></span> До внедрения: 95% - процент получения всех уведомлений (включая нерелевантные)</p>
+                <p><span class="legend-blue"></span> После внедрения: 35% - процент получения только релевантных уведомлений</p>
+                <p><strong>Сокращение ненужных уведомлений: 60%</strong></p>
+            </div>
+            
+            <div class="solution-block">
+                <p><span class="highlight">Преимущества:</span></p>
+                <ul class="feature-list">
+                    <li>Сокращение количества ненужных уведомлений на 60%</li>
+                    <li>Повышение релевантности получаемых оповещений</li>
+                    <li>Уменьшение отвлекающих факторов и повышение продуктивности</li>
+                    <li>Гибкая настройка под индивидуальные потребности</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><i class="fas fa-book-open"></i> Пожелания по развитию в формате User Story</h2>
+            
+            <div class="solution-block">
+                <p><span class="highlight">Для приложения Telegram:</span></p>
+            </div>
+            
+            <div class="user-stories">
+                <div class="user-story-card">
+                    <h3><i class="fab fa-telegram"></i> User Story #1: Фильтрация уведомлений</h3>
+                    <p><span class="highlight">Как активный пользователь каналов,</span> я хочу настраивать фильтры уведомлений по ключевым словам, <span class="highlight">чтобы</span> получать только релевантные мне оповещения и избегать информационного шума.</p>
+                </div>
+                
+                <div class="user-story-card">
+                    <h3><i class="fab fa-telegram"></i> User Story #2: Планировщик сообщений</h3>
+                    <p><span class="highlight">как пользователь, общающийся с людьми в разных часовых поясах,</span> я хочу иметь возможность планировать отправку сообщений на определенное время, <span class="highlight">чтобы</span> не беспокоить получателей ночью и обеспечить своевременную доставку важной информации.</p>
+                </div>
+                
+                <div class="user-story-card">
+                    <h3><i class="fab fa-telegram"></i> User Story #3: Улучшенные групповые видеозвонки</h3>
+                    <p><span class="highlight">Как организатор групповых встреч,</span> я хочу иметь расширенные функции для видеозвонков (разделение на комнаты, поднятие руки, улучшенный контроль доступа), <span class="highlight">чтобы</span> проводить более эффективные и организованные онлайн-встречи и вебинары.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <footer>
+        <p>Тестовое задание выполнено с использованием HTML, CSS, JavaScript и Figma</p>
+        <p>Сапан Алексей Викторович</p>
+        <p>© 2025 Анализ приложений на POCO F4</p>        
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
